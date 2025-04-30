@@ -1,6 +1,6 @@
-train: ../datasets/train/images
-val: ../datasets/valid/images
-test: ../datasets/test/images
+train: ../data/train/images
+val: ../data/valid/images
+test: ../data/test/images
 
 nc: 8
 names: ['anger', 'content', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
