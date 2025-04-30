@@ -6,7 +6,7 @@ def train_model():
     # 设置CUDA环境
     device = torch.device("cuda")
     # model = YOLO('last01.pt')  # 加载网络结构
-    model = YOLO('yolov8n-p5.yaml').load('yolov8n.pt')
+    model = YOLO('yolov8n-p6.yaml').load('yolov8n.pt')
     # 进行模型训练
     model.train(
         # 从头开始训练
